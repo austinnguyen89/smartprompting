@@ -1,0 +1,311 @@
+1. Write a Cloud Function in TypeScript using Firebase Functions for user authentication (sign up, login, and forgot password) using Firebase Authentication.
+ 
+
+Create a step-by-step tutorial on how to write a Cloud Function in TypeScript using Firebase Functions for user authentication, including sign up, login, and forgot password features, with the help of Firebase Authentication. In this tutorial, guide the reader through the process of setting up the environment and coding the functions, using variables for customization, such as
+
+project_name
+
+for the Firebase project name,
+
+allotted_time
+
+for the time you would like to spend on the tutorial, and
+
+preferred_editor
+
+for the code editor of your choice.
+
+
+
+
+
+2. Implement a Realtime Database listener in JavaScript for detecting any data change in a specific node and trigger a notification to the corresponding user.
+ 
+
+Create a step-by-step guide on how to implement a Realtime Database listener in JavaScript for data change detection in a specific node, triggering a notification to
+
+user_name
+
+. Include details on setup, coding, and necessary packages.
+
+
+
+Remember to provide instructions for the following:
+
+
+
+1. Setting up the Realtime Database and necessary environment for
+
+project_name
+
+.
+
+2. Writing the JavaScript code for detecting any data changes in node
+
+specific_node
+
+.
+
+3. Implementing a notification system to alert
+
+user_name
+
+whenever a change is detected.
+
+4. Ensuring proper functionality and testing the listener for accurate results in
+
+project_name
+
+.
+
+
+
+Provide code examples and explanations wherever possible to ensure a clear understanding of the implementation process.
+
+
+
+
+
+3. Create a Firestore security rule in Firebase for ensuring that only authenticated users with a specific role (e.g. admin) can access particular collections and documents.
+ 
+
+Create a step-by-step guide on how to implement a Firestore security rule in Firebase to ensure that only authenticated users with a specific role (e.g.
+
+role
+
+) can access certain collections and documents. Include explanations and examples for each step, taking into consideration the following aspects:
+
+
+
+1. Setting up Firebase and Firestore in the project.
+
+2. Creating user authentication and assigning roles (e.g.
+
+role
+
+) to users.
+
+3. Writing the Firestore security rule that allows only users with the
+
+role
+
+role to access the specified collections and documents.
+
+4. Testing the security rule with different user roles and access attempts.
+
+
+
+Please provide a clear and concise explanation suitable for users with some experience in Firebase but new to Firestore security rules.
+
+
+
+
+
+4. Develop a deployment script using Firebase CLI that deploys functions, Firestore rules, and Realtime Database rules to a specific Firebase environment (e.g., development, staging, or production).
+ 
+
+Create a tutorial on developing a deployment script for a
+
+specific_environment
+
+(e.g., development, staging, or production) using the Firebase CLI, including the following aspects:
+
+
+
+1. Deploying functions with
+
+function_name
+
+,
+
+2. Configuring Firestore rules using
+
+firestore_rules_file
+
+, and
+
+3. Implementing Realtime Database rules with
+
+realtime_database_rules_file
+
+.
+
+
+
+Please provide detailed steps, tips, and best practices for a seamless deployment process in a Firebase environment.
+
+
+
+
+
+5. Implement a Cloud Firestore trigger using Firebase Functions in TypeScript, which listens to changes in a specific collection and updates a counter document with the number of records in that collection.
+ 
+
+Create a step-by-step guide on implementing a Cloud Firestore trigger using Firebase Functions in TypeScript. The guide should explain how to listen for changes in a specific collection,
+
+collection_name
+
+, and update a counter document,
+
+counter_document
+
+with the number of records in that collection. Include relevant code snippets and explanations for each step to help developers understand and implement the solution.
+
+
+
+
+
+6. Write a TypeScript function using Firebase Functions to fetch data from an external API, process the response, and store the results in Firestore or Realtime Database.
+ 
+
+Create a TypeScript tutorial for a Firebase Function, where
+
+developer
+
+needs to fetch data from an external API using
+
+api_endpoint
+
+, process the received data with the
+
+processing_function
+
+function, and then store the results in a
+
+database_type
+
+database (Firestore or Realtime Database). Include steps to install necessary packages, to initialize Firebase Functions, and to write the actual function in TypeScript.
+
+
+
+
+
+7. Develop an automated backup script using Node.js to perform daily backups of Firestore and Realtime Database data and store the backups in a Google Cloud Storage bucket.
+ 
+
+Create a step-by-step tutorial on developing an automated backup script using Node.js for daily backups of data from Firestore and Realtime Database, and storing them in a Google Cloud Storage bucket. Make sure to include variables for
+
+database_type
+
+,
+
+backup_frequency
+
+, and
+
+storage_bucket_name
+
+in the instructions.
+
+
+
+
+
+8. Implement a Firebase Function in TypeScript for processing user-generated content (e.g., images or text) using the Firebase Storage, and moderate it using Google Cloud Vision API to flag inappropriate content and store the moderated content in Firestore or Realtime Database.
+ 
+
+Write a step-by-step guide on implementing a Firebase Function in TypeScript to process user-generated content such as
+
+content_type
+
+(images or text) using Firebase Storage. Moderate the content using Google Cloud Vision API to flag inappropriate material and store the moderated content in
+
+database_type
+
+(Firestore or Realtime Database). Include code examples and explanations for each step to ensure a clear understanding of the implementation process.
+
+
+
+
+
+9. Write a function in JavaScript that validates and sanitizes user input in a Firestore or Realtime Database to prevent code injection and security vulnerabilities.
+ 
+
+Write a step-by-step guide on creating a JavaScript function for
+
+database_type
+
+(Firestore or Realtime Database) that validates and sanitizes user input, including
+
+variable_1
+
+,
+
+variable_2
+
+, and
+
+variable_3
+
+, to effectively prevent code injection and security vulnerabilities.
+
+
+
+
+
+10. Create a Firebase Function in TypeScript for implementing pagination and filtering of Firestore data, returning results as an API endpoint, which will be consumed by a frontend application.
+ 
+
+Design a step-by-step guide for creating a Firebase Function in TypeScript to implement pagination and filtering of Firestore data. Include details on setting up the required environment, writing the function code, and deploying it as an API endpoint to be consumed by a frontend application. Use the following variable placeholders to customize the tutorial:
+
+
+
+1.
+
+project_name
+
+- The name of the Firebase project.
+
+2.
+
+api_endpoint
+
+- The unique URL endpoint for the API.
+
+3.
+
+collection_name
+
+- The name of the Firestore collection to query.
+
+4.
+
+page_size
+
+- The number of documents to display per page.
+
+5.
+
+filter_field
+
+- The field in the Firestore documents to filter by.
+
+6.
+
+filter_value
+
+- The value to filter the specified field by.
+
+7.
+
+sort_field
+
+- The field in the Firestore documents to sort by.
+
+8.
+
+sort_order
+
+- The order to sort the filtered results in (either ascending or descending).
+
+9.
+
+frontend_app
+
+- The name of the frontend application consuming the API data.
+
+10.
+
+additional_requirements
+
+- Any additional requirements or specifications to be implemented.

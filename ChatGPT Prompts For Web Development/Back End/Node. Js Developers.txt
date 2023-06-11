@@ -1,0 +1,272 @@
+1. Implement a RESTful API using Node.js, Express, and MongoDB to perform CRUD operations for managing user accounts. Make sure the API routes are properly structured, and implement error handling and validation for incoming data.
+ 
+
+Create a step-by-step guide on implementing a RESTful API using Node.js, Express, and MongoDB for CRUD operations of
+
+entity
+
+management. Cover the following aspects: defining API routes, structuring the API, error handling, data validation, and using best practices. Ensure the API can manage user accounts by creating, reading, updating, and deleting records.
+
+
+
+
+
+2. Write a script using Node.js to automate data migration from one database to another, ensuring the integrity and correctness of the data, and providing error reporting in case of any issues during the migration process.
+ 
+
+Create a comprehensive guide on developing a Node.js script to automate data migration between two databases,
+
+source_database
+
+and
+
+target_database
+
+, while maintaining data integrity and correctness, and implementing error reporting for any issues encountered during the process.
+
+
+
+
+
+3. Develop a real-time messaging system using Node.js, Socket.IO, and Redis, allowing users to join chat rooms and send/receive messages in real-time. Make sure to properly handle user disconnections and possible server-side issues.
+ 
+
+Create a step-by-step guide on developing a real-time messaging system using
+
+technology_1
+
+,
+
+technology_2
+
+, and
+
+technology_3
+
+. The guide should cover the process of allowing users to join chat rooms and send/receive messages in real-time, properly handling user disconnections, and addressing possible server-side issues. Include code examples and explanations for each major component of the system.
+
+
+
+
+
+4. Create a CLI tool using Node.js that automates project setup and boilerplate code generation for different languages and frameworks. The tool should be able to receive user input for desired configurations and generate the appropriate project structure and files accordingly.
+ 
+
+Create a step-by-step guide for developing a CLI tool using Node.js, which automates project setup and boilerplate code generation for
+
+language_1
+
+and
+
+framework_1
+
+. Ensure that the tool can accept user inputs for desired configurations, such as
+
+configuration_1
+
+and
+
+configuration_2
+
+, and generate the corresponding project structures and files. Include the following sections:
+
+
+
+1. Setting up the development environment: Describe the process of installing and configuring Node.js and other necessary tools for
+
+language_1
+
+and
+
+framework_1
+
+.
+
+
+
+2. Designing the CLI tool: Explain the overall structure of the tool, its core functionalities, and its interaction with the user through commands and flags.
+
+
+
+3. Handling user input: Describe how the tool can receive and process user inputs like
+
+configuration_1
+
+and
+
+configuration_2
+
+, and choose the appropriate templates and configurations accordingly.
+
+
+
+4. Generating project structure and files: Discuss the logic for creating the project structure and boilerplate code, based on the user's inputs for
+
+language_1
+
+and
+
+framework_1
+
+.
+
+
+
+5. Testing and deployment: Outline the steps for testing the CLI tool, ensuring it works as expected, and deploying it to a package manager like NPM.
+
+
+
+6. Final thoughts: Share some best practices, suggestions, or ideas for future improvements.
+
+
+
+Please provide a comprehensive, well-structured guide that can be easily followed by developers of varying experience levels.
+
+
+
+
+
+5. Implement a server-side image processing service using Node.js and Sharp library that receives uploaded images, processes them according to specified parameters (e.g., resizing, cropping, and compression), and returns the processed images to the user or saves them to a specified storage.
+ 
+
+Create a step-by-step guide to implement a server-side image processing service using Node.js and
+
+library
+
+, which receives images uploaded by users, processes them according to specified parameters, such as
+
+parameter_1
+
+,
+
+parameter_2
+
+, and
+
+parameter_3
+
+, and returns the processed images to the user or saves them in a specified storage. Additionally, provide example code snippets and best practices for handling various scenarios in the implementation process.
+
+
+
+
+
+6. Design and build a custom authentication middleware for an Express server using Node.js, that uses JSON Web Tokens (JWT) to provide secure access to protected API routes. Also, implement a user authentication system that includes user registration, login, and password reset functionality.
+ 
+
+Create a step-by-step guide for implementing a custom authentication middleware in an Express server using Node.js. The guide should cover using JSON Web Tokens (JWT) to secure access to protected API routes and include user authentication features like
+
+feature_1
+
+,
+
+feature_2
+
+, and
+
+feature_3
+
+.
+
+
+
+
+
+7. Develop a Node.js script that connects to a third-party API using Axios or another HTTP client, fetches data based on specified parameters, processes that data according to specific requirements, and then stores the result in a specified database.
+ 
+
+Create a step-by-step guide for developing a Node.js script that involves
+
+scenario
+
+, where you:
+
+
+
+1. Connect to a third-party API using
+
+http_client
+
+(e.g., Axios);
+
+2. Fetch data based on
+
+parameters
+
+provided;
+
+3. Process the fetched data according to
+
+specific_requirements
+
+;
+
+4. Store the result in a
+
+database_type
+
+database;
+
+
+
+Make sure to provide clear explanations and examples tailored to the scenario: "
+
+scenario
+
+".
+
+
+
+
+
+8. Utilize Node.js and thefile system (fs) module to create a script that recursively traverses through a directory structure, performing operations like file filtering, renaming, or content manipulation based on specified rules.
+ 
+
+Write a step-by-step guide on building a Node.js script using the file system (fs) module to recursively traverse a directory, with the aim of performing operations such as file filtering, renaming, and content manipulation. Explain the process using
+
+operation
+
+,
+
+directory
+
+, and
+
+rule
+
+as dynamic variables, guiding GPT-4 to provide specific examples and tailor the response accordingly.
+
+
+
+
+
+9. Write a Node.js server that utilizes Server-Sent Events (SSE) to push updates in real-time to connected clients. The server should respond to client requests and broadcast updates appropriately to all connected clients.
+ 
+
+Create a step-by-step guide on how to build a Node.js server that leverages Server-Sent Events (SSE) for real-time communication between
+
+user_number_of_clients
+
+connected clients. Explain how the server can handle incoming requests from clients and broadcast updates to all connected clients. Also, please include instructions on how to configure the necessary code and any additional required packages for the
+
+user_preferred_database
+
+database system.
+
+
+
+
+
+10. Implement a rate-limiting middleware for an Express server using Node.js and Redis, which limits the number requests a user can make within a specified time window to protect the server from excessive requests and potential denial-of-service (DoS) attacks.
+ 
+
+Write a step-by-step guide on how to implement a rate-limiting middleware for an Express server using Node.js and Redis, focusing on limiting the number of requests a user can make within a specified time window (
+
+time_window
+
+) to protect the server from excessive requests and potential denial-of-service (DoS) attacks. Additionally, discuss the implications of
+
+rate_limit
+
+, handling of error messages for exceeded limits, and any potential adjustments needed for different server configurations or security concerns.
+

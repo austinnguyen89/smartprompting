@@ -1,0 +1,360 @@
+1. Implement an Ember.js component to display a list of products with their names, descriptions, and prices. The component should be reusable and allow sorting by name, price, or rating.
+ 
+
+Create a step-by-step tutorial on how to implement a reusable Ember.js component called
+
+component_name
+
+that displays a list of products, each having attributes like product name (
+
+product_name
+
+), description (
+
+product_description
+
+), and price (
+
+product_price
+
+). Additionally, include functionality that allows sorting the list by name, price, or rating (
+
+sort_criteria
+
+).
+
+
+
+2. Write an Ember.js service that handles user authentication, including methods to- sign up, log in, and log out. It should also keep track of the current user's information and expose a method to get the user data.
+ 
+
+Create a comprehensive guide on building an Ember.js service, called
+
+service_name
+
+, that handles user authentication. This guide should cover the implementation of methods for user sign up, log in, and log out. Additionally, explain how to maintain the current user's information within the service and provide a method to access the user data. Use the following key points:
+
+
+
+1. Introduction to
+
+service_name
+
+and its purpose in user authentication.
+
+2. Setting up the Ember.js service structure for
+
+service_name
+
+.
+
+3. Implementing the 'sign up' method, with steps to create a new user in the system.
+
+4. Implementing the 'log in' method, including user credentials validation and session handling.
+
+5. Implementing the 'log out' method, ensuring proper cleanup of user sessions.
+
+6. Storing and managing the current user's information within
+
+service_name
+
+.
+
+7. Exposing a method to retrieve the user data, allowing access to their relevant details.
+
+8. Conclusion and potential improvements for the implemented
+
+service_name
+
+authentication service.
+
+
+
+3. Develop an Ember.js route for a single-page application that supports dynamic content loading based on URL parameters. The route should be able to handle different paths that display a product's details, a user's profile, or a shopping cart.
+ 
+
+Create a step-by-step guide to develop an Ember.js route in a single-page application, which dynamically loads content based on URL parameters for
+
+path_1
+
+,
+
+path_2
+
+, and
+
+path_3
+
+paths. Each path should respectively display product details, user profiles, and shopping carts.
+
+
+
+4. Integrate an existing RESTful API into an Ember.js application, allowing the frontend to interact with a backend server for CRUD operations. The integration should follow best practices such as handling ongoing requests, serializing data response, and error handling.
+ 
+
+Create a step-by-step guide on integrating a RESTful API into an Ember.js application for CRUD operations, focusing on key aspects like
+
+aspect_1
+
+,
+
+aspect_2
+
+, and
+
+aspect_3
+
+. Include best practices for
+
+practice_1
+
+,
+
+practice_2
+
+, and
+
+practice_3
+
+, and provide clear examples for each step.
+
+
+
+5. Create an Ember.js addon that provides custom form elements like date picking and multi-select input, with built-in validation and support for internationalization. The addon should be easily integrated into any Ember.js project using npm or yarn.
+ 
+
+Design a technical guide explaining how to create an Ember.js addon for providing custom form elements such as
+
+element_1
+
+and
+
+element_2
+
+with features like validation, internationalization, and easy integration via
+
+package_manager
+
+into any Ember.js project.
+
+
+
+6. Optimize an existing Ember.js application's performance by implementing lazy loading techniques, code splitting, and efficient data fetching strategies. Provide detailed documentation on the optimization steps taken and the results achieved.
+ 
+
+Write a comprehensive guide on optimizing an existing Ember.js application's performance focusing on
+
+technique_1
+
+,
+
+technique_2
+
+, and
+
+technique_3
+
+. Include step-by-step instructions on the implementation process, detailed documentation of the optimization steps taken, and the measurable results achieved for each technique.
+
+
+
+
+
+7. Refactor a legacy Ember.js codebase by updating it to the latest Ember.js version, using the latest best practices, and improving code maintainability. Provide a before and after comparison of the code and describe any improvements made to the application's stability, performance, or functionality.
+ 
+
+Refactor a legacy Ember.js codebase for a project called
+
+project_name
+
+by updating it to the latest Ember.js version, incorporating the latest best practices, and enhancing code maintainability. Provide a before-and-after comparison of specific parts of the code, such as
+
+code_section_1
+
+,
+
+code_section_2
+
+, and
+
+code_section_3
+
+, and discuss how the changes have contributed to improvements in the application's stability, performance, or functionality. Also, explain any new features or optimizations implemented during the refactoring process.
+
+
+
+8. Construct an Ember.js testing suite that covers unit, integration, and acceptance tests for an application's critical user flows. These tests should utilize the Ember.js Test Helpers and QUnit testing framework.
+ 
+
+Create a comprehensive guide on constructing an Ember.js testing suite that includes unit tests, integration tests, and acceptance tests for crucial user flows in an application. The guide should cover the use of Ember.js Test Helpers and the QUnit testing framework. Discuss the implementation of the following:
+
+
+
+1. Unit tests for
+
+component_1
+
+and
+
+component_2
+
+.
+
+2. Integration tests for
+
+module_A
+
+and
+
+module_B
+
+.
+
+3. Acceptance tests for
+
+user_flow_1
+
+,
+
+user_flow_2
+
+, and
+
+user_flow_3
+
+.
+
+
+
+Additionally, provide sample code snippets and best practices for implementing these tests effectively.
+
+
+
+9. Set up continuous integration (CI) and continuous deployment (CD) pipelines for an Ember.js project using popular CI services like Travis CI, CircleCI, or GitHub Actions. Ensure the pipeline successfully deploys the application to a hosting platform such as Netlify or Heroku upon passing all tests.
+ 
+
+Write a step-by-step guide on setting up continuous integration (CI) and continuous deployment (CD) pipelines for an
+
+application_type
+
+using
+
+ci_service
+
+(e.g., Travis CI, CircleCI, or GitHub Actions) for a
+
+framework
+
+project, specifically an Ember.js application. Ensure that the guide explains how to configure
+
+ci_service
+
+to run tests, and upon passing all tests, automatically deploy the application to a hosting platform like
+
+hosting_service
+
+(e.g., Netlify or Heroku).
+
+
+
+10. Implement real-time data updates in an Ember.js application by leveraging WebSockets, Server-Sent Events, or other real-time technologies. Ensure that the application's state stays in sync with any changes made on the backend.
+ 
+
+Create a step-by-step guide on implementing real-time data updates in an
+
+framework
+
+application using
+
+real_time_technology
+
+. Ensure the application's state stays in sync with backend changes.
+
+
+
+1. Introduction
+
+a. Briefly explain the use case of real-time data updates in
+framework
+
+applications.
+
+b. Introduce
+real_time_technology
+
+and its benefits and relevance to this task.
+
+
+
+2. Setting up the
+
+framework
+
+application
+
+a. Provide instructions on creating a new
+framework
+
+application, if necessary.
+
+b. Explain the application structure and any initial setup required.
+
+
+3. Preparing the backend
+
+a. Describe the role of the backend server in sending real-time updates.
+b. Add necessary configurations and libraries to the backend, if needed.
+
+
+4. Integrating
+
+real_time_technology
+
+in the
+
+framework
+
+application
+
+a. Explain the process of connecting the
+framework
+
+app to the server using
+
+real_time_technology
+
+.
+
+b. Describe how to handle incoming updates and apply them to the application's state.
+c. Provide sample code snippets illustrating different parts of the integration process.
+
+
+5. Syncing application state with backend changes
+
+a. Explain how to ensure that the application's state stays in sync with data changes on the backend.
+b. Demonstrate how to handle edge cases, such as missed updates or reconnections.
+
+
+6. Testing real-time updates
+
+a. Provide examples of different scenarios in which real-time updates should function correctly.
+b. Describe methods and tools to verify that the implemented real-time updates work as expected.
+
+
+7. Optimizations and best practices
+
+a. Provide suggestions for optimizing real-time data updates processes.
+b. Share any best practices for maintaining and scaling real-time functionality in an
+framework
+
+application.
+
+
+
+8. Conclusion
+
+a. Recap the key concepts covered and their importance.
+b. Encourage readers to integrate real-time updates in their own
+framework
+
+applications.

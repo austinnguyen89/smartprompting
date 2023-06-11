@@ -1,0 +1,318 @@
+1. Implement a secure user authentication system using ASP.NET Identity for an existing web application. The code should include registration, login, and password recovery functionalities.
+ 
+
+Design a step-by-step guide for implementing a secure user authentication system using ASP.NET Identity in an existing web application, featuring functionalities such as registration, login, and password recovery. Include relevant coding snippets and explanations for each step. Focus on the following elements, replacing them with specific details if needed:
+
+existing_application
+
+,
+
+user_registration
+
+,
+
+user_login
+
+, and
+
+password_recovery
+
+.
+
+
+
+
+
+2. Create a RESTful API using ASP.NET Web API for a given database schema. The API should include CRUD operations for all the entities in the schema and support filtering and sorting of the data. Ensure proper error handling and validation is in place.
+ 
+
+Design a step-by-step guide on creating a RESTful API using ASP.NET Web API for a database schema with
+
+entity_count
+
+entities:
+
+entity_1
+
+,
+
+entity_2
+
+, and so on. This should include CRUD operations for each entity as well as guidance for implementing filtering and sorting functionality. Additionally, outline how to incorporate proper error handling and validation throughout the project.
+
+
+
+
+
+3. Optimize the performance of an existing ASP.NET web application by implementing caching and pagination strategies. The code should demonstrate efficient data retrieval and minimize the use of system resources.
+ 
+
+Create a technical guide on optimizing an existing ASP.NET web application by focusing on three key areas:
+
+area_1
+
+,
+
+area_2
+
+, and
+
+area_3
+
+. The guide should explain how to implement caching and pagination strategies, demonstrating efficient data retrieval and minimal use of system resources. Include code examples in C# for each step, emphasizing the best practices for
+
+area_1
+
+,
+
+area_2
+
+, and
+
+area_3
+
+.
+
+
+
+
+
+4. Integrate a third-party payment gateway, such as Stripe or PayPal, into an ASP.NET e-commerce application. Write code that can handle the processing of payments, refunds, and recurring billing.
+ 
+
+Create a tutorial on integrating a third-party payment gateway, such as
+
+payment_provider
+
+, into an ASP.NET e-commerce application for seamless payment processing. Include code snippets that demonstrate how to handle
+
+transaction_type_1
+
+,
+
+transaction_type_2
+
+, and
+
+transaction_type_3
+
+in the application.
+
+
+
+
+
+5. Create a custom middleware for an ASP.NET Core application to handle user authorization based on roles and permissions. The code should demonstrate how to restrict access to certain areas of the web application based on the user's role.
+ 
+
+Create a tutorial on implementing a custom middleware for an ASP.NET Core application that handles user authorization based on roles and permissions for
+
+user_role
+
+. Include step-by-step instructions on how to restrict access to specific areas of the web application, such as
+
+restricted_area_1
+
+and
+
+restricted_area_2
+
+, depending on the user's role. Also, provide code examples showcasing the role-based access control implementation for the given scenario.
+
+
+
+
+
+6. Implement a real-time notification system using ASP.NET Core and SignalR. Write code that permits the broadcasting of messages to all connected users and supports private messaging between clients.
+ 
+
+Design and develop a real-time notification system using ASP.NET Core and SignalR that allows
+
+feature_1
+
+and
+
+feature_2
+
+. Provide implementation guidelines and code examples demonstrating the broadcasting of messages to all connected users (
+
+feature_1
+
+) and private messaging between clients (
+
+feature_2
+
+).
+
+
+
+
+
+7. Develop a background job scheduler using the Hangfire library in an ASP.NET application. The code should demonstrate how to create, run, and monitor scheduled tasks using the Hangfire dashboard.
+ 
+
+Create a technical tutorial on developing a background job scheduler in an ASP.NET application using the
+
+library
+
+library. The tutorial should include the following steps:
+
+
+
+1. Setting up the
+
+project_name
+
+project and installing the necessary
+
+library
+
+packages.
+
+2. Configuring
+
+library
+
+within the
+
+project_name
+
+application.
+
+3. Creating a sample task or function, called
+
+sample_task
+
+, that will be scheduled using the
+
+library
+
+library.
+
+4. Implementing the scheduling mechanism for the
+
+sample_task
+
+within the
+
+project_name
+
+application using
+
+library
+
+.
+
+5. Discussing the available scheduling options and their use cases, such as cron expressions, recurring jobs, and delayed jobs.
+
+6. Setting up the
+
+dashboard_name
+
+dashboard to monitor and manage scheduled tasks.
+
+7. Demonstrating how to use the
+
+dashboard_name
+
+dashboard to monitor the status of the
+
+sample_task
+
+, view task history, and manually trigger/retry tasks.
+
+
+
+Please ensure to provide code examples and explanations for each step. Finally, include any best practices or tips for using the
+
+library
+
+library in an ASP.NET application.
+
+
+
+8. Implement an error handling and logging mechanism in an ASP.NET web application. The code should capture exceptions and log them into a central repository such as a database, file, or an external service like Sentry or Loggly.
+ 
+
+Design a code snippet for an ASP.NET web application that implements error handling and logging mechanism. The code should include
+
+error_handling_method
+
+, which captures exceptions, and
+
+logging_system
+
+, as the central repository for logging the errors. Please provide an example using a database, file or an external service like Sentry or Loggly as the
+
+logging_system
+
+.
+
+
+
+
+
+9. Create an ASP.NET MVC application that supports localization and internationalization. The code should demonstrate how to serve content in different languages and cultures based on the user's preferences or browser's settings.
+ 
+
+Create a step-by-step guide on how to develop an ASP.NET MVC application that supports localization and internationalization for the
+
+number_of_languages
+
+languages specified. Include instructions on serving content in multiple languages and cultures based on user preferences and browser settings. Your guide should cover the following:
+
+
+
+1. Setting up the ASP.NET MVC project and installing required packages for
+
+language_1
+
+,
+
+language_2
+
+, and other languages.
+
+2. Creating resource files with translated content for each language, such as
+
+language_1
+
+Resource.resx,
+
+language_2
+
+Resource.resx, and so on.
+
+3. Implementing a LocalizationService class to handle language selection and text translation for each supported language.
+
+4. Configuring the application to detect and utilize the user's preferred language or browser settings, and optionally allowing the user to manually change their language preference.
+
+5. Incorporating translated content into your ASP.NET MVC views and displaying them based on the selected language.
+
+6. Testing the application's localization and internationalization features with users from different regions who speak
+
+language_1
+
+,
+
+language_2
+
+, and other supported languages.
+
+
+
+
+
+10. Integrate an existing ASP.NET web application with a Single Sign-On (SSO) solution like Microsoft Azure Active Directory (AAD) or Okta. Write code that allows users to authenticate using their existing credentials, and retrieves user profile information from the external identity provider.
+ 
+
+Implement integration of an ASP.NET web application with a Single Sign-On (SSO) solution like
+
+SSO_solution
+
+(Microsoft Azure Active Directory (AAD) or Okta). Provide code snippets that demonstrate authentication using existing user credentials and retrieval of user profile information from the external identity provider,
+
+external_identity_provider
+
+. Additionally, give an overview of how the integration can be achieved step-by-step.
+

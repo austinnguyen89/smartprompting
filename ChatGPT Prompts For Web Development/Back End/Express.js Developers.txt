@@ -1,0 +1,295 @@
+1. Request: Write a basic Express.js server with routing for GET, POST, PUT, and DELETE requests for the /api/users endpoint, implementing CRUD operations on a user database.
+ 
+
+Create a tutorial illustrating the process of building a basic Express.js server, focusing on the implementation of routing for various HTTP requests, such as GET, POST, PUT, and DELETE, specifically for the /api/users endpoint. Show how to set up CRUD operations on a
+
+database_type
+
+user database, using
+
+coding_language
+
+as the main programming language.
+
+
+
+2. Request: Create middleware functions for Express.js to implement authentication using JSON Web Tokens (JWT) and role-based access control on protected routes.
+ 
+
+Create a step-by-step guide for implementing authentication middleware in Express.js using JSON Web Tokens (JWT) and role-based access control for protected routes, featuring the following dynamic variables:
+
+author
+
+,
+
+project_name
+
+,
+
+authentication_library
+
+,
+
+user_model
+
+, and
+
+route_protector
+
+.
+
+
+
+
+
+3. Request: Develop error handling middleware for Express.js to catch all unhandled errors, log them in a log file, and return a properly formatted error response to the client.
+ 
+
+Create a technical guide for implementing an error handling middleware in Express.js to manage unhandled errors. Explain the process considering the following scenario: While working on a project,
+
+developer_name
+
+is assigned to develop error handling middleware for an Express.js application. The middleware should catch all unhandled errors, log them in a
+
+log_file_format
+
+log file, and return a properly formatted error response to the client. Provide step-by-step instructions and include appropriate code snippets to help
+
+developer_name
+
+achieve this goal.
+
+
+
+
+
+
+
+4. Request: Implement server-side pagination for the /api/products endpoint using Express.js and the MongoDB query API, allowing the clients to request a specific number of products per page and navigate through the product list.
+ 
+
+Create a tutorial on how to implement server-side pagination for the /api/products endpoint using Express.js and MongoDB Query API. In this tutorial, guide the user on setting up an API to display
+
+numberOfProducts
+
+products per page and provide a means to navigate through the product list. Include step-by-step instructions for configuring the pagination with
+
+pageNumber
+
+and
+
+pageSize
+
+as dynamic variables, and explain how to efficiently retrieve the data from the database using MongoDB's query API.
+
+
+
+
+
+5. Request: Integrate the Socket.IO library with Express.js to handle real-time communication between clients and the server for a chat application, including broadcasting new messages, handling connection and disconnection events, and updating users' statuses.
+ 
+
+Write a guide on integrating Socket.IO library with Express.js for a chat application, focusing on real-time communication between clients and the server. Include the following key aspects:
+
+aspect_1
+
+broadcasting new messages,
+
+aspect_2
+
+handling connection and disconnection events, and
+
+aspect_3
+
+updating users' statuses. Provide step-by-step instructions and code samples for each aspect.
+
+
+
+
+
+6. Request: Design and develop an Express.js REST API that supports file uploads to a specific directory on the server using the Multer library for handling multipart form-data.
+ 
+
+Design a tutorial for creating an Express.js REST API that enables file uploads with Multer. Follow the steps below involving
+
+user
+
+,
+
+developer
+
+, and
+
+API_request
+
+:
+
+
+
+1. Introduction: Explain the purpose of the Express.js REST API and how it will help
+
+user
+
+to upload files to a specific server directory using the Multer library for handling multipart form-data.
+
+
+
+2. Prerequisites: List the necessary tools, software, and knowledge required for
+
+developer
+
+to design and develop this Express.js REST API.
+
+
+
+3. Setting up the project: Guide
+
+developer
+
+through the initial setup steps, including folder structure, installing necessary packages, and initializing the project.
+
+
+
+4. Configuring Multer: Illustrate how
+
+developer
+
+should configure the Multer library to handle multipart form-data and specify the target directory for storing the uploaded files.
+
+
+
+5. Creating API endpoints: Show
+
+developer
+
+how to create REST API endpoints for handling
+
+API_request
+
+that involves file uploads by making use of the configured Multer middleware.
+
+
+
+6. Testing the API: Describe how
+
+developer
+
+can test the functionality of the created API endpoints and ensure the file uploads are successfully handled.
+
+
+
+7. Deployment: Explain how
+
+developer
+
+can deploy the Express.js REST API to the desired hosting environment, allowing
+
+user
+
+to access the API for file uploads.
+
+
+
+8. Conclusion: Summarize the benefits of using Express.js and Multer together for file uploads, and encourage
+
+developer
+
+to continue exploring and expanding their knowledge in server-side development.
+
+
+
+7. Request: Create custom validation middleware for Express.js to verify user inputs for specific data formats and provide informative error messages to clients for the /api/orders endpoint.
+ 
+
+Create a tutorial on designing custom validation middleware in Express.js for verifying user inputs, focusing on the /api/orders endpoint. Explain the process using the following objectives:
+
+
+
+1. Identify the necessary data formats and requirements for
+
+input_variable
+
+.
+
+2. Develop a custom validation middleware function that examines
+
+input_variable
+
+for compliance with the specific formats and requirements.
+
+3. Integrate the custom validation middleware into the Express.js application for the /api/orders endpoint.
+
+4. Demonstrate the functionality of the custom validation middleware using test cases with both valid and invalid
+
+input_variable
+
+.
+
+5. Explain how to send informative error messages back to clients when their
+
+input_variable
+
+does not meet the identified specifications.
+
+
+
+Please ensure to provide example code snippets and clear explanations throughout the tutorial.
+
+
+
+
+
+8. Request: Integrate an Express.js server with a Redis instance to store and manage session data, using the session middleware to handle client-side cookies and add persistence to user sessions.
+ 
+
+Write a step-by-step guide on how to integrate an Express.js server with a Redis instance for storing and managing session data in a web application, using the session middleware to handle client-side cookies and add persistence to user sessions. Include details on installing necessary packages, configuring the server, and implementing the required functionality. Use appropriate variable names like
+
+ExpressApp
+
+,
+
+RedisClient
+
+, and
+
+Middleware
+
+to customize the explanation for different use cases.
+
+
+
+
+
+9. Request: Optimize an Express.js REST API using HTTP/2 and Server Push to improve performance, loading assets asynchronously and reducing the number of round-trips between the server and clients.
+ 
+
+Write an in-depth guide on optimizing an Express.js REST API using HTTP/2 and Server Push to enhance performance by loading assets asynchronously and minimizing the number of round-trips between the server and clients. Explain the role of
+
+technology_1
+
+, benefits of implementing
+
+technology_2
+
+, and provide step-by-step instructions on configuring the
+
+server_side_framework
+
+application to make use of these technologies. Also, include best practices and tips for further improving the overall efficiency and responsiveness of the API.
+
+
+
+
+
+10. Request: Implement an Express.js custom logging middleware with log rotation functionality, ensuring logs are saved in a separate file for each day and files older than a specified limit are automatically deleted.
+ 
+
+Create a tutorial for implementing an Express.js custom logging middleware with log rotation functionality. The tutorial should include step-by-step instructions on setting up the middleware, ensuring logs are saved in separate files for each day, and automatically deleting files older than a specified limit. Use
+
+Middleware_Name
+
+as the name of the custom middleware, and
+
+Retention_Period
+
+to indicate the maximum number of days to keep log files before deleting.

@@ -1,0 +1,302 @@
+1. Write a PyAutoGUI script to automatically open the calculator application and perform a series of arithmetic operations, like addition, subtraction, multiplication, and division.
+ 
+
+Create a PyAutoGUI tutorial for writing a script that automatically opens the Calculator application and demonstrates performing a series of arithmetic operations, such as addition, subtraction, multiplication, and division. Include step-by-step instructions for implementing the script and specifying the desired operations,
+
+operation_1
+
+,
+
+operation_2
+
+,
+
+operation_3
+
+, and
+
+operation_4
+
+. Additionally, provide code snippets and explanations for key sections of the code where necessary.
+
+
+
+
+
+2. Develop a SikuliX script to automate the process of logging in to a particular website, filling out a form, and submitting the information.
+ 
+
+Create a step-by-step guide to develop a SikuliX script for automating the process of logging in to a specific website,
+
+website_name
+
+, filling out the required fields on a form with the given information:
+
+field_1
+
+,
+
+field_2
+
+, and
+
+field_3
+
+, and then submitting the form to complete the task. Include explanations of the variable code elements and any necessary screenshots for the visual scripting process.
+
+
+
+
+
+3. Create a PyQt application with a graphical user interface that allows users to input two numbers and select an arithmetic operation (addition, subtraction, multiplication, or division). Display the result of the operation in the GUI.
+ 
+
+Create a tutorial for developing a PyQt application where users can perform arithmetic operations. Explain the process step-by-step, focusing on designing a graphical user interface with input fields for
+
+number_1
+
+and
+
+number_2
+
+, a selection menu for choosing the operation (addition, subtraction, multiplication, or division), and an area to display the result. Ensure the application can successfully execute the selected operation between the two input numbers and provide a clear, concise explanation of each step in the development process.
+
+
+
+
+
+4. Write a PyAutoGUI script to automate the process of opening a text editor, typing in some content, and saving the file with a specific filename.
+ 
+
+Create a step-by-step tutorial explaining how to use PyAutoGUI to automate the following tasks: opening a text editor (
+
+text_editor_name
+
+), typing some content (
+
+sample_content
+
+), and saving the file with a specific filename (
+
+file_name
+
+). Include appropriate explanations, dynamic variables, and code snippets to help users understand and effectively apply the PyAutoGUI script.
+
+
+
+
+
+5. Design a PyQt application that allows users to upload an image and apply a series of filters or image manipulations (rotate, mirror, adjust brightness/contrast, etc.) using the graphical user interface.
+ 
+
+Design a PyQt application,
+
+app_name
+
+, that has the following features:
+
+1. Allows users to upload an image in formats like
+
+file_format1
+
+,
+
+file_format2
+
+, and
+
+file_format3
+
+.
+
+2. Provides a user-friendly graphical interface for users to apply a list of image manipulations such as
+
+manipulation1
+
+,
+
+manipulation2
+
+,
+
+manipulation3
+
+, and
+
+manipulation4
+
+.
+
+3. Enables real-time preview of image manipulations before finalizing changes.
+
+4. Includes a
+
+save_export_button
+
+to save the manipulated image in the user's desired file format and location.
+
+5. Add a help/documentation section for users to understand different features of
+
+app_name
+
+.
+
+
+
+Please provide a step-by-step explanation and code snippets for implementing each feature in the PyQt application, as well as the overall design and structure of the application.
+
+
+
+
+
+6. Develop a SikuliX script to automate a simple file management task, such as creating a new folder, renaming it, and moving specific files from one folder to another based on their file type.
+ 
+
+Create a step-by-step guide for developing a SikuliX script to automate a file management task involving
+
+task_1
+
+,
+
+task_2
+
+, and
+
+task_3
+
+, focusing on the manipulation of files with specific
+
+file_type
+
+.
+
+
+
+
+
+7. Write a PyAutoGUI script to detect when a specific image appears on the screen and take a screenshot of the entire screen when it does.
+ 
+
+Write a Python PyAutoGUI script with the following features: detect when the image
+
+specific_image
+
+appears on the screen, take a screenshot of the entire screen when this occurs, and save the screenshot with the filename "
+
+screenshot_name
+
+.png". Include a clear explanation of each step of the script and its functions for easy understanding.
+
+
+
+
+
+8. Create a PyQt application that interacts with an external API to fetch and display data (such as weather information, news headlines, etc.) in a clean and organized GUI.
+ 
+
+Create a step-by-step tutorial on developing a PyQt application that utilizes
+
+external_API
+
+to retrieve and present data, such as
+
+data_type_1
+
+and
+
+data_type_2
+
+, in an intuitive and well-structured graphical user interface. Make sure to incorporate the following key aspects:
+
+
+
+1. Setting up the PyQt environment and necessary libraries
+
+2. Designing the overall layout and components for the user interface
+
+3. Establishing a connection to the
+
+external_API
+
+and making API requests
+
+4. Parsing the received data (
+
+data_type_1
+
+and
+
+data_type_2
+
+) and handling possible errors
+
+5. Displaying the fetched data in an organized manner using the created GUI components
+
+6. Implementing features for updating and refreshing the displayed data
+
+7. Customizing the application's appearance and adding finishing touches
+
+8. Briefly discuss potential improvements and extensions for the application
+
+
+
+In your response, provide clear instructions, code snippets in Python, and screenshots or visual aids to assist users in understanding and following the tutorial effectively.
+
+
+
+
+
+9. Implement a SikuliX script to automate the process of downloading a file from a website, waiting for the download to complete, and then moving the downloaded file to a specific folder.
+ 
+
+Create a step-by-step guide on implementing a SikuliX script to automate the process of
+
+task_1
+
+: downloading a file from a
+
+website
+
+,
+
+task_2
+
+: waiting for the download to complete, and
+
+task_3
+
+: moving the downloaded file to a specific
+
+destination_folder
+
+. Include code examples and best practices for each step in the process. Also, explain any potential challenges and solutions when automating this process using SikuliX.
+
+
+
+
+
+10. Write a PyAutoGUI script to automate a series of keyboard shortcuts in a specific application (e.g., Microsoft Word) to format a document according to a set of predefined rules (e.g., applying specific styles, inserting headers/footers, etc.).
+ 
+
+Create a step-by-step PyAutoGUI tutorial for automating a series of keyboard shortcuts in
+
+application_name
+
+(e.g., Microsoft Word) to format a document according to
+
+predefined_rules
+
+(e.g., applying specific styles, inserting headers/footers, etc.). Please provide clear explanations for each step, screenshots where necessary, and example code snippets using dynamic variables such as
+
+shortcut_1
+
+,
+
+rule_1
+
+, and
+
+action_1
+
+.
+

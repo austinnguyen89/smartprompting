@@ -1,0 +1,248 @@
+1. Implement a responsive navigation bar in Svelte that includes a logo, menu items, and a search bar. The navigation bar should be mobile-friendly and must collapse into a hamburger menu on smaller screens.
+ 
+
+Write a step-by-step guide on how to create a responsive navigation bar in Svelte for
+
+user_name
+
+that incorporates a
+
+logo_type
+
+logo,
+
+number_of_menu_items
+
+menu items, and a
+
+search_bar_type
+
+search bar. Ensure that the navigation bar is mobile-friendly and transforms into a
+
+hamburger_menu_style
+
+hamburger menu on smaller screens.
+
+
+
+
+
+2. Develop a reusable, customizable modal component in Svelte that supports the following features: Make sure the modal can be opened/closed programmatically, be positioned in the center of the screen, receive a custom title, and handle custom content to be passed as a slot.
+ 
+
+Create a guide to develop a customizable modal component in
+
+framework
+
+that includes the following features: 1) Opening and closing the modal programmatically using
+
+method
+
+, 2) Positioning the modal in the center of the screen, 3) Including a custom title with the
+
+title_parameter
+
+, and 4) Handling custom content passed through the
+
+slot_parameter
+
+. Provide step-by-step instructions and best practices for implementing this modal component in a
+
+project_context
+
+.
+
+
+
+3. Create a Svelte component for an infinitely scrolling list that fetches data from a given API endpoint when the user scrolls near the bottom of the list. The component should allow customization for the list item template, fetch request options, and loading/display error states.
+ 
+
+Create a step-by-step guide on creating a Svelte component for an infinitely scrolling list using the following requirements: 1. Fetch data from the API endpoint
+
+api_endpoint
+
+, 2. Implement scroll-triggered data fetching when the user is
+
+scroll_distance
+
+from the bottom, 3. Customize the list item template with
+
+list_item_template
+
+, 4. Adjust fetch request options using
+
+fetch_options
+
+, and 5. Configure loading and display error states with
+
+error_handling
+
+.
+
+4. Design and implement a Svelte-based form with built-in validation and error handling. The form should accept custom input fields, provide real-time client-side validation, submit the form's data to a specified endpoint, and display success or error messages appropriately.
+ 
+
+Create a step-by-step guide for building a
+
+svelte_based_form
+
+with validation and error handling. The guide should cover the following aspects: 1) Setup of the Svelte project, 2) Design of the
+
+input_fields
+
+, 3) Implementation of real-time
+
+client_side_validation
+
+, 4) Form submission to the
+
+specified_endpoint
+
+, and 5) Display of
+
+success_or_error_messages
+
+. Ensure to include appropriate dynamic variables and examples in each step of the process.
+
+
+
+
+
+5. Develop a Svelte image gallery component that displays a grid of thumbnail images and allows users to click on the thumbnail to open a larger view of the image in a lightbox. The lightbox should support navigation between images and include a caption for each image.
+ 
+
+Create a tutorial guide on developing a Svelte image gallery component with features like thumbnail grid, lightbox, navigation, and captions. Use
+
+framework
+
+,
+
+grid_element
+
+,
+
+lightbox_element
+
+,
+
+navigation_element
+
+, and
+
+caption_element
+
+for dynamic variable names, and provide the detailed code implementation for each feature.
+
+
+
+
+
+6. Implement a user login and registration system using Svelte for frontend and with necessary backend support. The system should include form validation, secure data transmission, and simple state management to track the user's authenticated status.
+ 
+
+Design and discuss the process for implementing a user login and registration system using Svelte as the frontend and appropriate backend technology. The discussion should involve
+
+step_1
+
+: form validation techniques,
+
+step_2
+
+: secure data transmission methods, and
+
+step_3
+
+: simple state management strategies for tracking the user's authenticated status.
+
+
+
+
+
+7. Create a Svelte-based data table component that supports paginated data fetch from a given API, sortable columns, and customizable row templates. The component should also handle loading states and display error messages when applicable.
+ 
+
+Create a step-by-step tutorial on developing a Svelte-based data table component with the following features: paginated data fetch from a given API, sortable columns, customizable row templates, loading states, and error message display. Use
+
+API_Name
+
+as the API, and include three columns with variables
+
+column_1
+
+,
+
+column_2
+
+, and
+
+column_3
+
+. Walk through the process of implementing and customizing the component's functionality, while considering different scenarios and edge cases.
+
+
+
+8. Design and develop a responsive card-based grid layout using Svelte, compatible with various screen sizes. The layout should automatically adjust the displayed columns based on the available screen width and be easily customizable in terms of styling and content.
+ 
+
+Create a tutorial on designing and developing a responsive card-based grid layout using Svelte for
+
+subject
+
+, ensuring compatibility with various screen sizes. The tutorial should cover the automatic adjustment of displayed columns based on available screen width and provide guidance on customizing styling and content for elements such as
+
+element_1
+
+,
+
+element_2
+
+, and
+
+element_3
+
+.
+
+9. Implement a dark mode feature for an existing Svelte-based website, allowing users to toggle between light and dark themes easily. The selected theme should be persistent across page reloads and sessions by storing the preference in local storage.
+ 
+
+Create a step-by-step guide on how to implement a dark mode feature for a Svelte-based website, allowing users to toggle between
+
+theme_1
+
+(light theme) and
+
+theme_2
+
+(dark theme) effortlessly. Ensure that the chosen theme persists across page reloads and sessions by saving user preferences in the local storage. Include clear instructions and considerations for
+
+svelte_component
+
+,
+
+toggle_button
+
+, and
+
+local_storage
+
+integration.
+
+
+
+10. Create an interactive Svelte component for a multi-step form that guides users through the process of providing specific information. Each step should have input validation and display progress indicators, and the form should be easily extensible to accommodate additional steps in the future.
+ 
+
+Create a tutorial on building a multi-step form using Svelte, featuring an interactive component that guides users through the process of providing information for
+
+step_topic_1
+
+,
+
+step_topic_2
+
+, and
+
+step_topic_3
+
+. Ensure that each step includes input validation and progress indicators, and explain how the form can be easily extended to include additional steps in the future. Include relevant code snippets, interactive examples, and best practices for creating this Svelte component.
+

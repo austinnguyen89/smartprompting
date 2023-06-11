@@ -1,0 +1,381 @@
+1. Create a FastAPI application to handle user registration, requiring the following input fields: `username`, `password`, `email`. Use FastAPI's built-in validation and Pydantic models.
+ 
+
+Create a tutorial on how to build a FastAPI application for user registration, utilizing
+
+framework
+
+and
+
+library
+
+. The application must handle the following input fields:
+
+input_field_1
+
+,
+
+input_field_2
+
+, and
+
+input_field_3
+
+. Also demonstrate the integration of FastAPI's built-in validation and Pydantic models to improve the application's efficiency and robustness.
+
+
+
+
+
+2. Implement a route to authenticate users and return a JWT token upon successful authentication. This route should accept username  and password  fields and return the token as part of the response.
+ 
+
+Create a step-by-step guide to set up a route for user authentication using
+
+framework
+
+that returns a JWT token upon successful authentication. It should involve the following:
+
+
+
+1. Accepting `
+
+username
+
+and
+
+password
+
+` input fields from the user.
+
+2. Validating the user credentials.
+
+3. Generating and returning a JWT token as part of the response if authentication is successful.
+
+
+
+Additionally, provide an example of how to test the implemented route to ensure it functions properly.
+
+
+
+
+
+3. Write a middleware function to protect specific routes by requiring a valid JWT token in the request header. If the token is not present or invalid, return a 401 Unauthorized response.
+ 
+
+Create a technical guide on how to write a middleware function for protecting specific routes using a JWT token. The guide should cover the following key points:
+
+
+
+1. The main goal of the middleware function is to verify the presence of a valid
+
+token_type
+
+token in the request header.
+
+2. If the token is absent or invalid, the middleware should return a
+
+error_code
+
+error response.
+
+3. The specific routes you want to protect are:
+
+route_1
+
+,
+
+route_2
+
+, and
+
+route_3
+
+.
+
+4. Provide step-by-step instructions for implementing the middleware function and securing the specified routes.
+
+5. Include sample code for the middleware function, preferably in
+
+programming_language
+
+.
+
+
+
+Please make sure to use clear language and proper formatting for easy readability.
+
+
+
+3. Write a middleware function to protect specific routes by requiring a valid JWT token in the request header. If the token is not present or invalid, return a 401 Unauthorized response.
+ 
+
+Create a technical guide on how to write a middleware function for protecting specific routes using a JWT token. The guide should cover the following key points:
+
+
+
+1. The main goal of the middleware function is to verify the presence of a valid
+
+token_type
+
+token in the request header.
+
+2. If the token is absent or invalid, the middleware should return a
+
+error_code
+
+error response.
+
+3. The specific routes you want to protect are:
+
+route_1
+
+,
+
+route_2
+
+, and
+
+route_3
+
+.
+
+4. Provide step-by-step instructions for implementing the middleware function and securing the specified routes.
+
+5. Include sample code for the middleware function, preferably in
+
+programming_language
+
+.
+
+
+
+Please make sure to use clear language and proper formatting for easy readability.
+
+
+
+
+
+4. Create a CRUD (Create, Read, Update, Delete) API for managing blog posts using FastAPI and the Tortoise-ORM library. The blog post should have the following fields: `title`, `content`, `author_id`, `created_at`, and `updated_at`.
+ 
+
+Create a tutorial on building a CRUD (Create, Read, Update, Delete) API for managing blog posts using FastAPI and the Tortoise-ORM library, with focus on
+
+specific_topic
+
+. Include code examples and explanations for working with the following fields: title, content, author_id, created_at, and updated_at. Explain the role of
+
+dynamic_variable
+
+in the process and demonstrate how to create and manipulate data using the API.
+
+
+
+
+
+5. Implement pagination and filtering for the blog post list endpoint to allow users to browse through a large number of posts easily. Include options for sorting by date, author, and title.
+ 
+
+Create a technical guide explaining how to implement pagination, filtering, and sorting for a blog post list endpoint, allowing users to easily browse through a large number of posts. The guide should cover the following features: (1) pagination with
+
+page_size
+
+and
+
+page_number
+
+parameters, (2) filtering by
+
+filter_author
+
+and
+
+filter_date
+
+, and (3) sorting by
+
+sort_date
+
+,
+
+sort_author
+
+, and
+
+sort_title
+
+. Additionally, provide examples of how to use the parameters in combination with each other to create customized browsing experiences.
+
+
+
+
+
+6. Set up FastAPI's built-in TestClient for writing test cases and write tests covering all major functionality: user registration, user authentication, CRUD operations for blog posts, and pagination/filtering/sorting.
+ 
+
+Write a tutorial on setting up FastAPI's built-in TestClient for writing test cases, covering the following major functionalities: (1) user registration, (2) user authentication, (3) CRUD operations for blog posts, and (4) pagination/filtering/sorting. Include explanations and code snippets for each functionality, using
+
+language_1
+
+for backend and
+
+language_2
+
+for frontend. Demonstrate how to use variables in the test cases appropriately, like
+
+test_user
+
+,
+
+test_post
+
+, and
+
+test_auth_payload
+
+. Highlight best practices for ensuring complete test coverage and maintaining test integrity throughout the project.
+
+
+
+
+
+7. Configure rate limiting middleware for the FastAPI application to prevent abuse and ensure fair usage of the API. Limit endpoints to a specific number of requests per minute based on user roles (e.g., 60 requests per minute for regular users, 120 requests per minute for administrators).
+ 
+
+Create a step-by-step guide on configuring rate limiting middleware for a FastAPI application using
+
+middleware_tool
+
+to prevent abuse and ensure fair usage. Describe setting up the following limitations based on user roles:
+
+limit_regular_users
+
+requests per minute for regular users, and
+
+limit_admin_users
+
+requests per minute for administrators. Also, elaborate on the process of applying these limits to the specific API endpoints.
+
+
+
+
+
+8. Implement a WebSocket chat feature using FastAPI's WebSocket support. Authenticate users using the JWT token, and store chat messages in a database. Also, create a function to fetch the chat history from the database.
+ 
+
+Design and implement an 8-step guide on creating a WebSocket chat feature using FastAPI for
+
+software_project
+
+. Include the following steps:
+
+
+
+1. Setting up the FastAPI framework and initializing the WebSocket support.
+
+
+
+2. Authenticating users using the JWT token, featuring variable
+
+jwt_secret_key
+
+for the secret key.
+
+
+
+3. Creating a database to store chat messages utilizing
+
+database_technology
+
+.
+
+
+
+4. Implementing a WebSocket endpoint for users to send and receive messages.
+
+
+
+5. Developing a chat message handler function that makes use of
+
+database_model
+
+.
+
+
+
+6. Storing incoming chat messages in the database, associated with their respective user's
+
+username
+
+.
+
+
+
+7. Creating a function called
+
+fetch_chat_history_function
+
+to retrieve chat history from the database.
+
+
+
+8. Displaying and handling chat history in the chat interface.
+
+
+
+Provide code snippets, best practices, and potential optimizations to help ensure a successful implementation for
+
+software_project
+
+.
+
+
+
+
+
+9. Set up a background task queue using FastAPI and Celery to send email notifications when a new post is published. Configure Celery to use Redis as a broker and write a task to perform the email sending.
+ 
+
+Write a step-by-step guide on how to implement a background task queue using FastAPI and Celery for sending email notifications when a new post is published. Include details on configuring Celery to use Redis as a broker and creating a task for email sending. Make use of the following dynamic variables:
+
+framework
+
+,
+
+task_queue
+
+,
+
+notification
+
+, and
+
+data_store
+
+.
+
+
+
+
+
+10. Integrate FastAPI with an OpenAPI documentation tool (such as Swagger UI or ReDoc) to generate interactive API documentation that developers can use to explore and test the APIs.
+ 
+
+Create a tutorial on integrating FastAPI with an OpenAPI documentation tool, specifically
+
+documentation_tool
+
+, for generating interactive API documentation targeting developers who will explore and test APIs. Include steps for installation, configuration, and usage of
+
+documentation_tool
+
+with FastAPI, and provide examples for implementing
+
+API_example_1
+
+and
+
+API_example_2
+
+to showcase the seamless integration and testing capabilities.
+

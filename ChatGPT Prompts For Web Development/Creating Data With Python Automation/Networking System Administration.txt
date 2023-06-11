@@ -1,0 +1,380 @@
+1. Write a Python script using Paramiko library to automate SSH access to a list of network devices, execute predefined commands, and save the output in separate log files for each device.
+ 
+
+Write a step-by-step guide on developing a Python script using the
+
+library
+
+library to automate SSH access to
+
+num_devices
+
+network devices, execute the following commands:
+
+command_1
+
+,
+
+command_2
+
+, and
+
+command_3
+
+, and store the output in separate log files named
+
+logfile_prefix
+
+_Device1.txt,
+
+logfile_prefix
+
+_Device2.txt, and so on for each device.
+
+
+
+
+
+2. Develop a code snippet with Nornir library in Python to automate network configuration changes and backup tasks for a large list of network devices using different vendor-specific protocols like Juniper's Junos, Cisco's IOS, and Arista's EOS.
+ 
+
+Create a Python code snippet using the Nornir library to automate network configuration changes and backup tasks for a list of network devices from
+
+vendor_1
+
+,
+
+vendor_2
+
+, and
+
+vendor_3
+
+. Include examples for handling vendor-specific protocols: Juniper's
+
+protocol_1
+
+, Cisco's
+
+protocol_2
+
+, and Arista's
+
+protocol_3
+
+.
+
+
+
+
+
+. Create a custom Ansible playbook in YAML and corresponding Python modules to manage software updates and deployment of security patches across multiple servers, ensuring they meet compliance requirements and have proper rollback capabilities.
+ 
+
+Design and implement a custom Ansible playbook, named
+
+playbook_name
+
+.yaml, and accompanying Python modules for managing software updates and the deployment of security patches across
+
+number_of_servers
+
+servers. Ensure the solution adheres to compliance requirements and incorporates efficient rollback capabilities. The primary components should include:
+
+
+
+1. Inventory file: Create an inventory file,
+
+inventory_filename
+
+.ini, to list the
+
+number_of_servers
+
+servers and their relevant details.
+
+
+
+2. Playbook: Develop the
+
+playbook_name
+
+.yaml playbook, incorporating the following critical tasks:
+
+Update and upgrade software packages on each server
+
+Deploy security patches relevant to each server
+
+Verify the successful application of the updates and patches
+
+Implement rollback capabilities in case of failure or non-compliance
+
+
+
+3. Python modules: Design custom Python modules,
+
+module_1
+
+.py and
+
+module_2
+
+.py, to enhance the functionality of the Ansible playbook, such as:
+
+Checking for new updates and patches
+
+Verifying compliance requirements
+
+Managing rollback operations
+
+
+
+4. Testing and validation: Once the playbook and modules are developed, perform a series of tests to confirm the solution's effectiveness across the
+
+number_of_servers
+
+servers while ensuring minimal downtime and service disruption.
+
+
+
+Please provide a detailed overview of the implemented solution, specifying the logic behind the playbook and Python modules, along with sample code snippets and instructions for successful deployment.
+
+
+
+
+
+4. Write a Python script using Paramiko for automating the transfer of large files across multiple servers using SFTP (Secure File Transfer Protocol) and verify the files' integrity with MD5 hash comparison.
+ 
+
+Create a step-by-step guide on how to write a Python script using Paramiko for automating the transfer of large files across multiple servers using SFTP (Secure File Transfer Protocol). Include the process of verifying the files' integrity with MD5 hash comparison. Make sure to incorporate the following dynamic variables:
+
+server_1
+
+,
+
+server_2
+
+, and
+
+large_file
+
+.
+
+
+
+
+
+
+
+5. Implement a network monitoring solution with Nornir library in Python to facilitate automated health checks, gather performance statistics, and identify bottlenecks for multiple network devices, sending alerts and notifications to a predefined list of recipients.
+ 
+
+Design a step-by-step guide for implementing a network monitoring solution using the
+
+library
+
+library in
+
+language
+
+to perform automated health checks, collect performance statistics, and detect bottlenecks for
+
+number_of_devices
+
+network devices. Include instructions on configuring alerts and notifications to be sent to a list of
+
+recipients
+
+recipients.
+
+
+
+
+
+6. Develop a custom Ansible module in Python to automate the creation, deletion, and modification of DNS records on popular DNS providers like AWS Route 53, Google Cloud DNS, and Azure DNS.
+ 
+
+Create a tutorial on developing a custom Ansible module in Python to automate the following tasks:
+
+
+
+1. Creation of DNS records
+
+2. Deletion of DNS records
+
+3. Modification of DNS records
+
+
+
+The module should be compatible with popular DNS providers such as AWS Route 53, Google Cloud DNS, and Azure DNS.
+
+
+
+The tutorial should cover the following key points:
+
+
+
+Introduction to
+
+ansible_module_name
+
+and its purpose
+
+Setting up the development environment for
+
+ansible_module_name
+
+
+
+Explanation of the Python code for
+
+ansible_module_name
+
+, highlighting important functions and classes
+
+Integrating the module with Ansible and testing it on the target DNS providers (AWS Route 53, Google Cloud DNS, and Azure DNS)
+
+Demonstrating the use of the module in a real-world scenario, with variable examples for each DNS provider
+
+Discussing potential improvements and expansions to
+
+ansible_module_name
+
+functionality
+
+
+
+Please ensure the content is clear, concise, and easy to follow for readers familiar with Python and Ansible.
+
+
+
+
+
+7. Write a Python script using Paramiko to automate remote server log analysis, scanning for specific keywords or error patterns and generating reports based on the extracted events.
+ 
+
+Create a step-by-step guide for writing a Python script using the Paramiko library to automate remote server log analysis for
+
+user_name
+
+. The script should scan for specific keywords or error patterns, like "
+
+keyword_1
+
+" and "
+
+error_pattern
+
+", and generate reports based on the extracted events. Include instructions to set up the Paramiko library, establish the SSH connection and interact with the remote server. Also, highlight any best practices or considerations for
+
+user_name
+
+during the implementation of this script.
+
+
+
+
+
+8. Implement a code snippet using Nornir to automate the provisioning of new virtual machines or containers across various hypervisor environments like VMware ESXi, KVM, and Docker, with considerations for CPU, memory, and storage requirements.
+ 
+
+Create a step-by-step guide for using Nornir to automate provisioning of new virtual machines or containers in
+
+hypervisor_environment
+
+(e.g., VMware ESXi, KVM, Docker), including configuring
+
+CPU_allocation
+
+,
+
+memory_allocation
+
+, and
+
+storage_allocation
+
+.
+
+
+
+
+
+9. Create an Ansible playbook and a supporting Python script to automate the process of deploying web applications (using Django, Flask, or other frameworks) to a variety of web servers like Apache, Nginx, or Microsoft IIS.
+ 
+
+Create a step-by-step guide on how to automate the deployment of web applications using an Ansible playbook and a Python script, considering different web application frameworks such as
+
+web_framework_1
+
+,
+
+web_framework_2
+
+, and others. Additionally, include instructions to deploy to various web servers like
+
+web_server_1
+
+,
+
+web_server_2
+
+, and
+
+web_server_3
+
+.
+
+
+
+
+
+10. Develop a version control automation solution with Paramiko and Git integration in Python, ensuring that scheduled backups, version tracking, and remote code deployment workflows are in place for managing network device and server configurations.
+ 
+
+Design a tutorial to create a version control automation solution using Paramiko and Git integration in Python, specifically for managing network device and server configurations. Explain each step in detail while incorporating the following key components:
+
+
+
+1. Initializing
+
+repository_name
+
+as a Git repository.
+
+2. Connecting to
+
+network_device
+
+and
+
+server
+
+using Paramiko.
+
+3. Implementing scheduled backups for
+
+backup_frequency
+
+.
+
+4. Establishing version tracking and commit messages for
+
+tracked_files
+
+.
+
+5. Creating remote code deployment workflows to push changes to
+
+remote_location
+
+.
+
+6. Ensuring proper error handling and logging mechanisms are in place.
+
+
+
+Additionally, provide examples of how this solution can be applied to different types of network devices and servers.
+
+
+

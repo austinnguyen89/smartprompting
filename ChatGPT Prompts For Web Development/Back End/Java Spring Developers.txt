@@ -1,0 +1,215 @@
+1. Request: Implement a Java Spring Boot RESTful API for managing a simple inventory system. The API should provide CRUD (Create, Read, Update, Delete) functionality for Items and their Categories.
+ 
+
+Design a step-by-step guide on how to create a Java Spring Boot RESTful API for an inventory management system. Please include implementation details for CRUD operations for
+
+Entity_1
+
+(Items) and
+
+Entity_2
+
+(Categories), and any related services or classes. Additionally, ensure to mention the overall structure, necessary dependencies, and best practices to make the API efficient and maintainable.
+
+
+
+
+
+2. Request: Implement and configure a Spring Security filter chain to apply OAuth2 authentication and role-based authorization for different REST endpoints of the inventory API mentioned in the first request.
+ 
+
+Write a technical guide on how to implement and configure a Spring Security filter chain for
+
+application_name
+
+, focusing on applying OAuth2 authentication and role-based authorization for various REST endpoints in the inventory API. Include detailed explanations on setting up
+
+component_1
+
+for OAuth2, configuring
+
+component_2
+
+for role-based authorization, and incorporating these components into the filter chain for efficient security management.
+
+
+
+
+
+3. Request: Use Spring Data JPA repositories to integrate the inventory API with a chosen relational database to store the Item and Category information. This should include appropriately annotated Java Entity classes.
+ 
+
+Design a comprehensive guide for integrating an inventory API with a chosen relational database using Spring Data JPA repositories for storing Item and Category information. In this guide, include the setup and implementation of annotated Java Entity classes for
+
+Entity_1
+
+and
+
+Entity_2
+
+.
+
+
+
+
+
+4. Request: Configure a Spring Boot Actuator for the inventory API to monitor the application metrics, health, and performance. Implement custom health checks for any third-party integrations and monitor any API usage limits.
+ 
+
+Create a technical guide on configuring a Spring Boot Actuator for an inventory API, focusing on monitoring application metrics, health, and performance. Include steps to implement custom health checks for
+
+third_party_integration
+
+and methods to monitor any API usage limits for
+
+specific_api_limit
+
+.
+
+
+
+
+
+
+
+5. Request: Build asynchronous functionality leveraging Spring WebFlux and Reactor to handle large amounts of data and improve overall API performance for the inventory system. Include an example of how it can be utilized in the existing inventory API.
+ 
+
+Create an asynchronous solution for handling massive data in an inventory system using
+
+technology_1
+
+and
+
+technology_2
+
+to enhance overall API performance. Explain a practical scenario where this solution can be integrated into the existing inventory API for better performance.
+
+
+
+
+
+6. Request: Implement a Spring Boot caching mechanism using an In-Memory cache (like EhCache or HazelCast) to optimize the performance of frequently-accessed endpoints in the inventory API.
+ 
+
+Create a step-by-step guide on implementing a Spring Boot caching mechanism using an in-memory cache, such as
+
+cache_type_1
+
+or
+
+cache_type_2
+
+, to improve the performance of frequently-accessed endpoints in an inventory API. The guide should cover the installation and configuration of the selected caching library, caching annotations, cache management, and testing the cache performance. Highlight any best practices and potential issues that may be encountered during the implementation process.
+
+
+
+
+
+7. Request: Create a Java Spring Boot application that schedules an automated report generation for popular items and their sales in the inventory system. This should include the use of the Scheduled annotation and Spring Batch framework.
+ 
+
+Create a step-by-step guide on how to develop a Java Spring Boot application that automates the generation of a report for
+
+report_frequency
+
+showcasing the most popular items and their sales in the inventory system, leveraging the Scheduled annotation and the Spring Batch framework. The application should include the following elements:
+
+
+
+1. Setting up the Java Spring Boot project
+
+2. Implementing a class for inventory item
+
+inventory_item
+
+
+
+3. Configuring the Scheduled annotation and defining the report generation interval
+
+4. Implementing the Spring Batch framework
+
+5. Configuring the job and tasklets to handle report generation for popular
+
+item_type
+
+and their sales
+
+6. Integrating the Scheduled annotation and Spring Batch framework to automate report generation
+
+7. Testing and deploying the application
+
+
+
+Ensure that you provide clear explanations, code snippets, and examples to help guide users through each step of the development process.
+
+
+
+
+
+8. Request: Apply Java validation for any user input and request payloads to the inventory API, leveraging Java Bean Validation (JSR-303) and Spring Validation frameworks, e.g., @Valid annotations, customized constraint annotations, and validation error handling.
+ 
+
+Create a step-by-step guide to apply Java validation for user input and request payloads in an inventory API. Your guide should cover the following key aspects:
+
+
+
+Utilizing Java Bean Validation (JSR-303) and Spring Validation frameworks
+
+
+
+Implementing @Valid annotations, as well as customized constraint annotations like
+
+custom_constraint_example_1
+
+and
+
+custom_constraint_example_2
+
+
+
+
+
+Handling validation errors effectively
+
+
+
+Your response should cater to a developer with experience in Java, but new to Java Bean Validation and Spring Validation frameworks.
+
+
+
+
+
+9. Request: Develop a simple Java Spring Boot Messaging application using RabbitMQ as a message broker to notify other services whenever there is a notable event like a new Item, Category, or significant update in the inventory system.
+ 
+
+Design a Java Spring Boot Messaging application tutorial that explains the integration of RabbitMQ as a message broker for event notifications related to the inventory system, focusing on
+
+event_1
+
+,
+
+event_2
+
+, and
+
+event_3
+
+, while demonstrating the implementation of various components like producers, consumers, and listeners, alongside configuration and testing details.
+
+
+
+
+
+10. Request: Configure error handling and exception handling for the inventory API. Include custom error responses for API users and implement error logging for developers using a Logger (e.g., SLF4J, Log4J).
+ 
+
+Create a guide on error and exception handling for the Inventory API, focusing on the following aspects: configuring
+
+error_handling_method
+
+, implementing custom error responses for API users, and setting up error logging for developers using
+
+logger_tool
+
+(e.g., SLF4J, Log4J). Include best practices and examples to demonstrate the implementation of these methods effectively.

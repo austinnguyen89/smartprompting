@@ -1,0 +1,222 @@
+1. Request: Please write the code to implement a Devise-based authentication system for a Rails backend application, including User model, views, and controllers.
+ 
+
+Create a step-by-step implementation guide for a Devise-based authentication system in a Rails backend application, including the components
+
+component_1: User model
+
+,
+
+component_2: views
+
+, and
+
+component_3: controllers
+
+. Please elaborate on the necessary configuration and code snippets for each component, as well as any required modifications to existing files for seamless integration.
+
+
+
+
+
+2. Request: Develop the code for a Rails backend API supporting CRUD operations for a Task Management system, with models for Projects and Tasks, and controllers to handle the JSON API endpoints.
+ 
+
+Design a step-by-step guide on creating a Rails backend API with CRUD operations for a Task Management system. The guide should cover the development of models for
+
+model_1
+
+and
+
+model_2
+
+, along with controllers to handle the JSON API endpoints. In the guide, include a detailed explanation of each step and how it contributes to the overall functionality of the system. Additionally, provide code examples in the context of
+
+model_1
+
+and
+
+model_2
+
+where necessary.
+
+
+
+3. Request: Write a background job in Rails that uses Sidekiq to periodically fetch data from a third-party API and updates the database records accordingly.
+ 
+
+Create a tutorial that demonstrates how to implement a background job in a Rails application using Sidekiq to periodically fetch data from a third-party API called
+
+api_name
+
+. Describe the steps for setting up the background job, including configuring Sidekiq and creating a worker class named
+
+worker_class
+
+. Include examples of how to use the fetched data to update the database records for an entity called
+
+database_entity
+
+within the Rails application. Also, mention how to schedule the background job at a regular interval, such as every
+
+time_period
+
+.
+
+
+
+4. Request: Design a Rails application that has a multi-step registration process using state machines, where users can save their progress at any point and come back to complete the registration later.
+ 
+
+Design a step-by-step guide for creating a Rails application with a multi-step registration process using state machines, where users have the option to save their progress at any point and resume later. Include essential components, such as
+
+component_1
+
+,
+
+component_2
+
+, and
+
+component_3
+
+, and describe how to integrate them into the application. Elaborate on techniques for storing user progress, handling form validation, and managing state transitions. Additionally, provide useful tips for improving the user experience while completing the registration process.
+
+
+
+5. Request: Create a module for handling user authorization in a Rails application, using Pundit or CanCanCan gem to define policies, and demonstrate how to apply these policies in controllers.
+ 
+
+Create a tutorial explaining how to implement user authorization in a Ruby on Rails application using the
+
+gem_name
+
+gem (either Pundit or CanCanCan). Discuss the process of setting up the gem, defining policies, and applying these policies within controllers. Make sure to include examples of how to create
+
+policy_1
+
+and
+
+policy_2
+
+policies and their respective usage in
+
+controller_1
+
+and
+
+controller_2
+
+controllers.
+
+
+
+6. Request: Implement a real-time notification system using Rails Action Cable for notifying users when they receive new messages or when specific events happen in the application.
+ 
+
+Design a step-by-step guide for implementing a real-time notification system using Rails Action Cable in a web application. The guide should cover the process from start to finish, including the setup of the following components:
+
+component_1
+
+,
+
+component_2
+
+, and
+
+component_3
+
+. Additionally, provide examples of how to notify users when they receive new messages or when specific events, such as
+
+event_1
+
+and
+
+event_2
+
+, happen in the application. Please include any necessary code snippets and explanations for each step, ensuring a smooth and efficient implementation.
+
+
+
+
+
+7. Request: Write a Rake task in Rails application that performs data cleanup by removing unused assets, old logs, and expired user sessions on a regular schedule.
+ 
+
+Create a step-by-step guide for developing a Rake task in a Rails application called
+
+rake_task_name
+
+, which ensures regular data cleanup by removing
+
+asset_type_1
+
+,
+
+asset_type_2
+
+, and expired user sessions every
+
+time_period
+
+.
+
+
+
+
+
+8. Request: Develop an API endpoint for a Rails backend application that performs a complex search and filtering operation on the data, using Elasticsearch or similar search engine to achieve fast and accurate results.
+ 
+
+Create a technical guide explaining the development of an API endpoint for a Rails backend application that includes complex search and filtering functionality, using
+
+search_engine
+
+for fast and precise results. Include details on setting up
+
+search_engine
+
+, configuring the Rails app, designing the API endpoint, querying data, and optimizing performance.
+
+
+
+
+
+9. Request: Create a Rails backend that exposes API endpoints for uploading and processing files, such as images or documents, using Active Storage or another file management system, and demonstrates how to handle associated security concerns.
+ 
+
+Create a tutorial on building a Rails backend with API endpoints for file management, specifically focusing on uploading and processing
+
+file_type_1
+
+and
+
+file_type_2
+
+, using either Active Storage or
+
+alternative_system
+
+. Additionally, provide guidance on handling security concerns associated with the management of these files.
+
+
+
+
+
+10. Request: Develop a system for handling webhooks in a Rails application, receiving events from external services, and processing them asynchronously using background jobs.
+ 
+
+Write a comprehensive guide on developing a system for handling webhooks in a Rails application, focusing on the integration with
+
+external_service_1
+
+and
+
+external_service_2
+
+. Explain the process of receiving events from these services and outline the steps to process them asynchronously using
+
+background_job_technology
+
+for background jobs. Include best practices for error handling, security, and scalability in the webhook implementation.
+

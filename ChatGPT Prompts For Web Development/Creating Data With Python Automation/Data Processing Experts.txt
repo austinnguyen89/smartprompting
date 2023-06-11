@@ -1,0 +1,250 @@
+1. Request: Write a Python script to import a CSV file using Pandas, clean the data by removing any null values, duplicates, and outliers, and then save the cleaned data to a new CSV file.
+ 
+
+Write a step-by-step guide on creating a Python script that accomplishes the following tasks: 1) Import a CSV file named
+
+input_file
+
+using Pandas library, 2) Clean the data by removing any null values, duplicates, and outliers, 3) Save the cleaned data to a new CSV file named
+
+output_file
+
+. Include any necessary code snippets in Python and provide explanations for each step.
+
+
+
+
+
+2. Request: Develop a Python script using Numpy to perform matrix operations (addition, subtraction, multiplication, and transpose) on two input matrices supplied as either lists or arrays.
+ 
+
+Create a tutorial for developing a Python script using Numpy to perform matrix operations, such as addition, subtraction, multiplication, and transpose, on two input matrices given as either lists or arrays. Name the matrices as
+
+matrix_1
+
+and
+
+matrix_2
+
+. Provide examples demonstrating these operations and their results for different input cases, such as when both matrices are of the same size or when they have different dimensions. Include a discussion on handling possible exceptions that may arise during the process.
+
+
+
+3. Request: Create a Python script using Dask to parallelize a data processing task, such as reading multiple large CSV files, performing data transformations/aggregations, and exporting the results into a single output file for further analysis.
+ 
+
+Create a tutorial on how to use Dask in Python for parallelizing data processing tasks, focusing on the following steps: 1) Installing and setting up
+
+library
+
+, 2) Reading multiple large
+
+file_type
+
+files, 3) Performing
+
+transformation_1
+
+and
+
+transformation_2
+
+data transformations, 4) Aggregate the data using
+
+aggregation_method
+
+, and 5) Exporting the results into a single
+
+output_file_type
+
+for further analysis.
+
+
+
+
+
+4. Request: Write a Python function using Pandas to perform data analytics on a given dataset: group the data based on specified columns, calculate statistical measures (mean, median, standard deviation), and visualize the results using a bar plot.
+ 
+
+Write a step-by-step guide on how to create a Python function using the Pandas library to analyze a dataset. The function should be able to group data based on
+
+column_name_1
+
+and
+
+column_name_2
+
+, calculate the
+
+statistical_measure_1
+
+,
+
+statistical_measure_2
+
+, and
+
+statistical_measure_3
+
+, and display the results using a
+
+visualization_type
+
+.
+
+
+
+5. Request: Implement a Python script using Numpy to perform statistical analysis on a given dataset (imported as a CSV or Excel file) including calculating linear regression, correlation coefficient, and hypothesis testing using t-test or chi-square test.
+ 
+
+Analyze a dataset using a Python script with Numpy, where the dataset is in
+
+file_format
+
+format (CSV or Excel). Perform statistical analysis on the
+
+dataset_name
+
+dataset, including linear regression, correlation coefficient, and hypothesis testing (using either t-test or chi-square test). Please consider the considerations and preferences of
+
+user_name
+
+while executing the script.
+
+
+
+
+
+6. Request: Develop a Python script using Dask to process and analyze large volumes of image files stored remotely (e.g., S3 storage or Hadoop) by reading the images in parallel, perform image transformations (resize, crop, flip), and save the processed images into a specified output folder.
+ 
+
+Create a step-by-step guide on developing a Python script using Dask to process and analyze a large volume of
+
+file_type
+
+files stored on a remote platform like
+
+remote_storage
+
+(e.g., S3 storage or Hadoop). The guide should cover how to read the images in parallel, perform image transformations such as
+
+transformation_1
+
+,
+
+transformation_2
+
+, and
+
+transformation_3
+
+(e.g., resize, crop, flip), and save the processed images into a specified output folder named
+
+output_folder
+
+.
+
+
+
+
+
+7. Request: Write a Python function using Pandas to merge two datasets based on a common key column and perform data validations/comparisons between the merged data by identifying unmatched records, conflicting data, and updating the merged data with any required data-quality checks.
+ 
+
+Write a step-by-step explanation on how to create a Python function using the Pandas library to merge two datasets,
+
+dataset_1
+
+and
+
+dataset_2
+
+, based on their common key column,
+
+key_column
+
+. Additionally, include the necessary techniques for validating and comparing the merged data by identifying unmatched records, conflicting data, and updating the merged dataset with any required data-quality checks.
+
+
+
+
+
+8. Request: Develop a Python script using Numpy to generate synthetic data (numeric and categorical) based on user-specified parameters (number of rows, columns, distribution type), and then apply machine learning algorithms (e.g., clustering or classification) on the generated dataset.
+ 
+
+Create a step-by-step guide for developing a Python script that uses Numpy to generate synthetic data (both numeric and categorical) based on user-defined parameters: number of rows (
+
+rows
+
+), number of columns (
+
+columns
+
+), and distribution type (
+
+distribution
+
+). Then, explain how to apply machine learning algorithms, such as clustering or classification, on the generated dataset.
+
+
+
+
+
+9. Request: Implement a Python script using Dask to analyze and visualize time-series data stored in multiple CSV files by reading the data asynchronously, perform time-based aggregations (hourly, daily, monthly summary statistics), and plot the output using appropriate visualization tools (e.g., line plot or heatmap).
+ 
+
+Create a step-by-step guide on implementing a Python script for
+
+user_name
+
+to analyze and visualize time-series data using Dask. The data is stored in multiple CSV files, and needs to be read asynchronously. The script should include the following tasks:
+
+
+
+1. Import necessary libraries, including Dask and visualization tools.
+
+2. Load and read the
+
+number_of_files
+
+CSV files asynchronously.
+
+3. Perform time-based aggregations on the data, including hourly, daily, and monthly summary statistics.
+
+4. Create appropriate visualizations, such as line plots or heatmaps, using the aggregated data.
+
+5. Save and export the visualizations for
+
+user_name
+
+'s review.
+
+
+
+Please make sure to provide clear instructions, code examples, and explanations for each step of the process.
+
+
+
+
+
+10. Request: Write a Python script using Pandas to perform text data processing and analysis on a given dataset (e.g., customer reviews or user comments), including data cleaning (removing special characters, stop words, stemming/lemmatization), sentiment/emotion analysis, and creating word clouds or bar charts to visualize the results.
+ 
+
+Create a step-by-step Python tutorial on using Pandas for text data processing and analysis. Focus on a dataset consisting of
+
+dataset_description
+
+(e.g. customer reviews or user comments). Cover the following aspects: data cleaning (removing special characters, stop words, stemming/lemmatization), sentiment/emotion analysis, and visualizing results through word clouds or bar charts. Use dynamic variables like
+
+input_file
+
+,
+
+output_file
+
+, and
+
+visualization_type
+
+for customization.
+
